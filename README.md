@@ -80,7 +80,10 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## Acknowledgments
 
-> This is a fork of the official [flutter template](https://github.com/flutter/oss_project_template)
+Heavily inspired by:
+
+1. <https://github.com/jinxac/flutter-folder-structure>
+2. <https://github.com/flutter/oss_project_template>
 
 * Hat tip to anyone whose code was used
 * Inspiration
