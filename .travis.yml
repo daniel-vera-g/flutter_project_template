@@ -6,10 +6,6 @@ script: ./tool/travis.sh
 # sudo in your scripts.
 sudo: false
 
-# branches:
-#   only:
-#     - master
-
 cache:
   directories:
   - $HOME/.pub-cache
