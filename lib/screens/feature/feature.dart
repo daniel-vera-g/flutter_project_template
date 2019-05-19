@@ -15,7 +15,6 @@ class Feature extends StatelessWidget {
           child: new Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              new Text("This is a flutter Template"),
               new SimpleButton(),
             ],
           )
