@@ -1,82 +1,53 @@
-# Project Title
+# Flutter project template
 
-- [Project Title](#project-title)
-	- [Synopsis](#synopsis)
-	- [Motivation](#motivation)
+- [Flutter project template](#flutter-project-template)
+	- [Features](#features)
 	- [Getting Started](#getting-started)
 		- [Prerequisites](#prerequisites)
-		- [Installing](#installing)
 	- [Running the tests](#running-the-tests)
-	- [Built With](#built-with)
 	- [TODO](#todo)
 	- [Contributing](#contributing)
-	- [Versioning](#versioning)
-	- [Authors](#authors)
 	- [Acknowledgments](#acknowledgments)
 
-## Synopsis
+A flutter code boilerplate to start developing flutter applications.  
+Currently the mobile and web versions of this template are on different branches as [suggested](https://github.com/flutter/flutter_web/blob/master/docs/migration_guide.md).
 
-At the top of the file there should be a short introduction and/ or overview that explains what the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+1. Mobile branch: [`flutter-mobile`](https://github.com/daniel-vera-g/flutter_project_template/tree/flutter-mobile)
+1. Web branch: [`flutter-web`](https://github.com/daniel-vera-g/flutter_project_template/tree/flutter-web)
 
-## Motivation
+## Features
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
+1. Modular system with reusable widgets and screens.
+2. Tests
+3. Travis build
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+1. Use the code provided under either the mobile or web branch.
+2. Run `flutter packages upgrade`
+3. Run either `flutter run` for the mobile version, or `flutter packages pub global run webdev serve`(After installing `webdev` globally) for the web version.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+1. [Install flutter](https://flutter.dev/docs/get-started/install)
+2. [Install flutter web](https://github.com/flutter/flutter_web/)
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Run `flutter test`
 
-## Built With
-
-* What software is used
+> NOTE: Testing on the web version is currentyl not possible
 
 ## TODO
 
-A list of known bugs, limitations and/or a To Do list of features. Although these should also be issues in the GitHub repo
+1. Testing on the web version
+2. See [issue-tracker](https://github.com/daniel-vera-g/flutter_project_template/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
 ## Contributing
 
-Describe how to contribute
+Spottet an error or wanted to contribute?  
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-* The authors of the repository
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Just open an issue to discuss the changes or submit a pull request.
 
 ## Acknowledgments
 
@@ -84,7 +55,3 @@ Heavily inspired by:
 
 1. <https://github.com/jinxac/flutter-folder-structure>
 2. <https://github.com/flutter/oss_project_template>
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
