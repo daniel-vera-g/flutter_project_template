@@ -13,7 +13,6 @@ matrix:
   include:
     - language: dart
         dart:
-        # Install the latest stable release
         - stable
   before_script:
     - git clone https://github.com/flutter/flutter.git -b beta
