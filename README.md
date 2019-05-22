@@ -34,14 +34,14 @@ Currently the mobile and web versions of this template are on different branches
 
 ## Running the tests
 
-Run `flutter test`
+1. On mobile run `flutter test`
+2. On the web version run `pub run test -p chrome test/widget_test.dart`
 
-> NOTE: Testing on the web version is currentyl not possible
+> Pub has to be used on the web version till Flutter web is finally merged into the Flutter SDK
 
 ## TODO
 
-1. Testing on the web version
-2. See [issue-tracker](https://github.com/daniel-vera-g/flutter_project_template/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+1. See [issue-tracker](https://github.com/daniel-vera-g/flutter_project_template/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
 ## Contributing
 
