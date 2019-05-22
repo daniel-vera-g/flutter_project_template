@@ -9,17 +9,19 @@
 #     packages:
 #       - libstdc++6
 #       - fonts-droid
-matrix:
-  include:
-    - language: dart
-        dart:
-        - stable
-  # before_script:
-  #   - git clone https://github.com/flutter/flutter.git -b beta
-  #   - ./flutter/bin/flutter doctor
-  script:
-    - pub run test -p chrome test/button_test.dart
-    # - ./flutter/bin/flutter test
+# before_script:
+#   - git clone https://github.com/flutter/flutter.git -b beta
+#   - ./flutter/bin/flutter doctor
+# script:
+#   - pub run test -p chrome test/button_test.dart
+#   # - ./flutter/bin/flutter test
 # cache:
 #   directories:
 #     - $HOME/.pub-cache
+
+language: dart
+dart:
+# Install the latest stable release
+- stable
+script:
+  - pub run test -p chrome test/button_test.dart
