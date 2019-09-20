@@ -9,8 +9,8 @@
 	- [Contributing](#contributing)
 	- [Acknowledgments](#acknowledgments)
 
-A flutter code boilerplate to start developing flutter applications.  
-Currently the mobile and web versions of this template are on different branches as [suggested](https://github.com/flutter/flutter_web/blob/master/docs/migration_guide.md).
+A flutter code boilerplate to start developing flutter applications.
+Currently the mobile and web versions of this template are on different branches as [suggested](https://github.com/flutter/flutter_web/blob/master/docs/migration_guide.md).;
 
 1. Mobile branch: [`flutter-mobile`](https://github.com/daniel-vera-g/flutter_project_template/tree/flutter-mobile)
 1. Web branch: [`flutter-web`](https://github.com/daniel-vera-g/flutter_project_template/tree/flutter-web)
@@ -45,7 +45,7 @@ Currently the mobile and web versions of this template are on different branches
 
 ## Contributing
 
-Spottet an error or wanted to contribute?  
+Spottet an error or wanted to contribute?
 
 Just open an issue to discuss the changes or submit a pull request.
 
